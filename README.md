@@ -4,7 +4,7 @@
 Esse desafio é muito empolgante principalmente se você nunca trabalhou com a linguagem Go!
 Você terá que publicar uma imagem no docker hub. Quando executarmos:
 
-docker run <seu-user>/codeeducation
+docker run <seu-user>/fullcycle
 
 Temos que ter o seguinte resultado: Full Cycle Rocks!!
 
@@ -17,16 +17,16 @@ A imagem de nosso projeto Go precisa ter menos de 2MB =)
 ```
 
 $ sudo apt-get update $ sudo apt-get install docker-compose.
-  cd go
+  cd fullcycle
   docker-compose up
 ```
 
 # Pull 
 ```
-docker pull gabrielpasquantonio/go
+docker pull gabrielpasquantonio/fullcycle
 ```
 
 # Executar o container
 ```
-docker run --rm gabrielpasquantonio/go
+docker run --rm gabrielpasquantonio/fullcycle
 ```
