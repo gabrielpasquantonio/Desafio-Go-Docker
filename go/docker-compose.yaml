@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+
+  fullcycle:
+     build:
+       context: ./
+       dockerfile: Dockerfile
+     image: gabrielpasquantonio/fullcycle
+     container_name: fullcycle
+     networks:
+      - fullcycle
+     ports:
+      - "8080:80"
+
+networks:
+ fullcycle:
+  driver: bridge
